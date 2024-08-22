@@ -1,13 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>key logger</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div class="container">
+      <h2>Key Logger</h2>
+      <p>Dont forget to subscribe to our channel</p>
+      <div class="button-container">
+        <button id="Start-btn">Start Logging Keypresses</button>
+        <button id="Stop-btn">Stop Logging Keypresses</button>
+      </div>
+      <div class="button-container">
+        <div id="log"></div>
+        <div id="state"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
